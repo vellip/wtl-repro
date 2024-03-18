@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "wtl-repro"
+version = "0.1.0"
+description = ""
+authors = ["Philipp Veller <mail@vellip.de>"]
+readme = "README.md"
+packages = [{include = "wtl_repro"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^4.2.11"
+wagtail = "^5.2.3"
+wagtail-localize = "^1.8.2"
+django-modelcluster = "^6.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
